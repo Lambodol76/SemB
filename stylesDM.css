@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@600;700&display=swap');
+
+/*************************** ELEMENTS *************************************************/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none !important;
+    color: #f4f4f9 !important;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 2em;
+    margin: -2em;
+
+}
+
+img {
+    width: 200px !important;
+    height: 200px;
+    position: absolute;
+    left: 46%;
+    transform: translateY(75%);
+    border-radius: 50px;
+}
+
+footer {
+    margin-top: auto;
+    font-size: 50px !important;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 100%);
+    color: #f4f4f9;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+/*************************** CLASSES *************************************************/
+
+.back-to-homepage {
+    text-align: center;
+    padding: 50px;
+    color: #A27B5C !important;
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.back-to-homepage:hover {
+    opacity: 1; 
+    -moz-transition: all 0.4s ease-out;  /* FF4+ */
+    -o-transition: all 0.4s ease-out;  /* Opera 10.5+ */
+    -webkit-transition: all 0.4s ease-out;  /* Saf3.2+, Chrome */
+    -ms-transition: all 0.4s ease-out;  /* IE10? */
+    transition: all 0.4s ease-out;  
+    color: #2C3639 !important;
+}
+.my-headline {
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 100%);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline-h1 {
+    color: #A27B5C;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
+.middle-text {
+    visibility: hidden;
+    
+}
+
+.subject {
+    border: solid;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgb(64, 64, 64);
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    line-height: 2;
+}
+
+.subject:hover {
+    opacity: 1; 
+    -moz-transition: all 0.4s ease-out;  /* FF4+ */
+    -o-transition: all 0.4s ease-out;  /* Opera 10.5+ */
+    -webkit-transition: all 0.4s ease-out;  /* Saf3.2+, Chrome */
+    -ms-transition: all 0.4s ease-out;  /* IE10? */
+    transition: all 0.4s ease-out;  
+    background-color: #A27B5C;
+
+}
+
+.navbar-brand {
+    padding-left: 15px;
+    font-family: 'Pacifico', cursive;
+}
+
+.bottom {
+    padding-top: 50px;
+}
+
+.main {
+    padding-top: 150px;
+}
+/*************************** ID'S *************************************************/
+
+
